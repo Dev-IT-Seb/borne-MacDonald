@@ -1,0 +1,30 @@
+@use "../../abstracts/index" as *;
+
+.produit-card{
+    height: 15rem;
+    width: calc(50% - 1rem);
+    background-color: $cards-background ;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: $cards;
+    font-size: 12px;
+    
+
+    .produit-info {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        font-size: 10px;
+        width: 14rem;
+        border-top: 0.5px solid #0000003a;
+    }
+
+    img{
+        width: 80px;
+        height: 80px;
+        margin-top: 1.5rem;
+    }
+}

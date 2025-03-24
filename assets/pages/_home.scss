@@ -1,0 +1,39 @@
+@use "../abstracts/index" as *;
+
+.choix-langues {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+
+    .title-langues {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 8rem;
+        h2 {
+            font-size: 20px;
+            font-family: "speedee";
+            margin: 2rem 0;
+        }
+    }
+    .item {
+        margin-bottom: 1rem;
+        font-family: "speedee";
+        font-size: 12px;
+    }
+    a {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: $color-text;
+        border: solid 0.5px #0000005e;
+        border-radius: 2%;
+        height: 12rem;
+        font-size: 14px;
+    }
+    img {
+        width: 150px;
+        height: 80px;
+        margin-bottom: 1rem;
+    }
+}

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mac Donalds</title>
+    <link rel="icon" type="image/png" href="../favicon.png">
+    <meta name="description" content="Mac Donalds, venez manger nos burgers et autres produits et venez comme vous êtes.">
+    <link rel="stylesheet" href="../fonts/styles.css">
+	<link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+<header class="selection-header">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="logo">
+                    <a href="../index.html" title="Home Page">
+                        <img src="../assets/images/logo.png" alt="Logo Mac Donalds">
+                    </a>
+                </div>
+            </div>
+            <div class="panier-button">
+                <button class="primary-btn" id="panierButton">
+                    Voir panier
+                </button>
+            </div>
+        </div>
+    </div>
+</header>
+<main>
+    <section class="container-produits">
+        <div class="row">
+            <div class="filter">
+                <div class="burgers-button">
+                    <button class="secondary-btn" id="burgersButton">
+                        Burgers
+                        <img src="../assets/images/big_mac.png" alt="Burger Big Mac">
+                    </button>
+                </div>
+                <div class="sides-button">
+                    <button class="secondary-btn" id="sidesButton">
+                        Accompagnements
+                        <img src="../assets/images/frites_moyennes.png" alt="Frites moyennes">
+                    </button>
+                </div>
+                <div class="drinks-button">
+                    <button class="secondary-btn" id="drinksButton">
+                        Boissons
+                        <img src="../assets/images/coca_cola.png" alt="Boisson">
+                    </button>
+                </div>
+                <div class="desserts-button">
+                    <button class="secondary-btn" id="dessertsButton">
+                        Desserts
+                        <img src="../assets/images/sundae_chocolat.png" alt="">
+                    </button>
+                </div>
+                <div class="menus-button">
+                    <button class="secondary-btn" id="menusButton">
+                        Menus
+                        <img src="../assets/images/menu_best_of_big_mac.png" alt="">
+                    </button>
+                </div>
+                <div class="happymeal-button">
+                    <button class="secondary-btn" id="happymealButton">
+                        Happymeal
+                        <img src="../assets/images/happy_meal_cheeseburger.png" alt="">
+                    </button>
+                </div>
+            </div>
+        <div class="container liste-card-product" id="produitsContainer">
+            <h1>Choisir son repas</h1>
+            <div class="flex" id="produitsList">
+                <!----- Les produits seront ajoutés ici par JS -->
+            </div>
+        </div>
+        <div id="modalPanier" class="modal panier-modal">
+            <div class="modal-header">
+                <h2>Votre panier</h2>
+            </div>
+            <div class="modal-content"></div>
+            <div class="modal-footer">
+                <div class="montant">
+                    <h3>Total (TTC)</h3>
+                    <p>0 €</p>
+                </div>
+                <div class="valider-btn">
+                    <button class="primary-btn" id="idcheckPanier">Valider mon panier</button>
+                </div>
+            </div>
+        </div> 
+    </section>
+</main>
+<script src="../script.js"></script>
+</body>
+</html>

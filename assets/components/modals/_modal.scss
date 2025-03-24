@@ -1,0 +1,52 @@
+@use "../../abstracts/index" as *;
+
+/* Conteneur de la modale */
+.modal {
+    display: none; /* Cachée par défaut */
+    position: fixed;
+    z-index: 999; /* Tout en haut */
+    top: 0;
+    margin: auto;
+    width: 500px;
+    height: 100%;
+    overflow: auto;
+    background-color: $cards-modal-background ; /* Fond sombre */
+
+    .modal-content {
+        background-color: $cards-modal-title;
+        padding: 20px;
+        position: relative;
+    }
+    .modal-header , .modal-footer{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        background-color: $color-header-MacDo ;
+        color: $cards-modal-title;
+        padding: 1rem 2rem;
+    }
+
+    table{
+        margin: auto;
+        align-items: center;
+        text-align: center;
+        width: 95%;
+    }
+    
+    .col {
+        gap: 1rem;
+        align-items: center;
+    }
+}
+
+.product-modal {
+    img {
+        width: 10rem;
+        height: 10rem;
+    }
+    .row{
+        align-items: center;
+        gap: 1rem;
+    }
+}
