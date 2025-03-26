@@ -3,7 +3,8 @@
 ## 📌 Description du projet
 Ce projet est une **borne de commande interactive** pour un restaurant McDonald's, développée en **HTML, CSS et JavaScript**. Elle permet aux utilisateurs de passer une commande en autonomie : sélectionner des menus, des Happy Meals, des produits à la carte, et finaliser la commande.
 
-Le projet a été réalisé à deux dans le cadre de notre formation **Webecom 2025**.
+Le projet a été réalisé à deux dans le cadre de notre formation **Webecom 2025**.  
+URL: https://dev-it-seb.github.io/borne-MacDonald/
 
 ---
 
