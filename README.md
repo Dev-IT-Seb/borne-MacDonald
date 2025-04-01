@@ -11,6 +11,7 @@ URL: https://dev-it-seb.github.io/borne-MacDonald/
 ## 👥 Équipe projet
 - **Maxime Cornillon**
 - **Sebastien Chatel**
+** Promo 2025 **
 
 ---
 
