@@ -7,11 +7,10 @@ Le projet a été réalisé à deux dans le cadre de notre formation **Webecom 2
 URL: https://dev-it-seb.github.io/borne-MacDonald/
 
 ---
-
+** Promo 2025 **
 ## 👥 Équipe projet
 - **Maxime Cornillon**
 - **Sebastien Chatel**
-** Promo 2025 **
 
 ---
 
